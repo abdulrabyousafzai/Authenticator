@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.custom.authenticator.local.utils;uses:="javax
+ .naming,org.apache.commons.logging,javax.sql,org.wso2.carbon.identity
+ .application.authentication.framework.exception";version="1.0.0",org.
+ wso2.custom.authenticator.local;uses:="org.wso2.custom.authenticator.
+ local.utils,org.wso2.carbon.identity.application.authentication.frame
+ work.config,org.apache.commons.logging,org.wso2.carbon.user.api,org.w
+ so2.carbon.identity.application.authentication.framework,org.wso2.car
+ bon.user.core,org.wso2.carbon.identity.application.authentication.fra
+ mework.util,org.wso2.carbon.identity.application.authentication.frame
+ work.model,org.wso2.carbon.user.core.tenant,org.wso2.carbon.user.core
+ .service,org.wso2.carbon.utils.multitenancy,org.wso2.carbon.identity.
+ application.authentication.framework.context,org.wso2.carbon.identity
+ .application.authentication.framework.exception,javax.servlet.http";v
+ ersion="1.0.0"
+Service-Component: OSGI-INF/serviceComponents.xml
+Built-By: Abdul Rab
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.custom.authenticator.local
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.7.0_80
+Bundle-Version: 1.0.0
+Bnd-LastModified: 1533294352774
+Bundle-ManifestVersion: 2
+Import-Package: javax.naming;resolution:=optional,javax.servlet;versio
+ n="[2.6,3)",javax.servlet.http;version="[2.6,3)",javax.sql;resolution
+ :=optional,org.apache.commons.logging;resolution:=optional;version="[
+ 1.2,2)",org.osgi.framework;resolution:=optional;version="[1.7,2)",org
+ .osgi.service.component;resolution:=optional;version="[1.2,2)",org.ws
+ o2.carbon.identity.application.authentication.framework;resolution:=o
+ ptional;version="[5.7,6)",org.wso2.carbon.identity.application.authen
+ tication.framework.config;resolution:=optional;version="[5.7,6)",org.
+ wso2.carbon.identity.application.authentication.framework.context;res
+ olution:=optional;version="[5.7,6)",org.wso2.carbon.identity.applicat
+ ion.authentication.framework.exception;resolution:=optional;version="
+ [5.7,6)",org.wso2.carbon.identity.application.authentication.framewor
+ k.model;resolution:=optional;version="[5.7,6)",org.wso2.carbon.identi
+ ty.application.authentication.framework.util;resolution:=optional;ver
+ sion="[5.7,6)",org.wso2.carbon.user.api;resolution:=optional;version=
+ "[1.0,2)",org.wso2.carbon.user.core;resolution:=optional;version="[4.
+ 2,5)",org.wso2.carbon.user.core.service;resolution:=optional;version=
+ "[4.2,5)",org.wso2.carbon.user.core.tenant;resolution:=optional;versi
+ on="[4.2,5)",org.wso2.carbon.utils.multitenancy;resolution:=optional;
+ version="[4.4,5)"
+Bundle-SymbolicName: org.wso2.custom.authenticator.local
+Axis2Module: org.wso2.custom.authenticator.local-1.0.0
+
